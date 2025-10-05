@@ -297,6 +297,7 @@
         <small>
             Datengrundlage: Übersicht und Bedeutungen der Verkehrszeichen, siehe Quelle
             <a href="https://www.fuehrerscheine.de/verkehrsrecht/verkehrszeichen/" target="_blank" rel="noreferrer">Fuehrerscheine.de</a>
+             | Made by Yamen Khalili, Source Code on <a href="https://github.com/Vierdant/verkehrszeichen_trainer" target="_blank" rel="noreferrer">GitHub</a>
         </small>
     </footer>
 </div>
@@ -441,7 +442,7 @@
     .nav .primary:disabled { opacity: 0.5; cursor: not-allowed; }
 
     /* history list lives in modal */
-    .footer { padding: 12px 16px; border-top: 1px solid var(--border); color: var(--muted); }
+    .footer { padding: 12px 16px; border-top: 1px solid var(--border); color: var(--muted); text-align: center; }
 
     /* Modal */
     .modal { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: grid; place-items: center; z-index: 50; animation: fadeIn 150ms ease; }
